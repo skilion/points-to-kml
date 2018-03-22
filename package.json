@@ -1,0 +1,16 @@
+{
+  "name": "points-to-kml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "fast-csv": "^2.4.1",
+    "lodash": "^4.17.5",
+    "xml-js": "^1.6.2"
+  }
+}
