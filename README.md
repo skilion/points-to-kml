@@ -10,6 +10,7 @@ npm install
 Prepare two [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files with the following format:
 
 [points.csv](test/points.csv):
+
 | id    | group | x / lon | y / lat  | desc  |
 |-------|-------|---------|----------|-------|
 | 85632 | 1     | 7.65833 | 45.97642 | desc1 |
@@ -19,6 +20,7 @@ Prepare two [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files wi
 | SHJE  | 2     | 7.62435 | 45.96626 | desc3 |
 
 [links.csv](test/links.csv):
+
 | id1   | id2  | desc  |
 |-------|------|-------|
 | 85632 | FMDS | link1 |
