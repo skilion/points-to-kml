@@ -4,7 +4,7 @@ const fs = require('fs');
 const _ = require('lodash');
 
 (async function() {
-	if (process.argv.length < 2) {
+	if (process.argv.length < 3) {
 		console.error('Missing parameters');
 		console.error('Usage: node app.js points_file [links_file]');
 		return;
